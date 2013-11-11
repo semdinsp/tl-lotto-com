@@ -16,9 +16,14 @@ en:
   prizes:
     claim: 'How to claim'
     claimdetails: "For prizes under $200 they will be sent to you automatically as load or a free entry for the next draw.  For prizes over $200 you can claim cash from our office at "
+    expiry: "Prize expiry"
+    expirydetails: "You must claim your prize withing 30 days.  Unclaimed prizes will be donated to a charity to be decided by Telkcomcel"
   draws:
     drawdetails: "TBD "
     heading: "TBD "
+  dashboard:
+    title: "Visit the dashboard to watch entries in real time"
+    summary: "The dashboard can monitor your entry and watch results from past draws "
     
 
     

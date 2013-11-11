@@ -32,4 +32,11 @@ Link text: About
         = I18n.translate('prizes.claimdetails')
         %a(href="contact") 
           contact
+      %h3
+        = I18n.translate('prizes.expiry')
+      %p
+        = I18n.translate('prizes.expirydetails')
+    .col-md-5
+      = haml :dashboard_menu, :layout => false
+        
 

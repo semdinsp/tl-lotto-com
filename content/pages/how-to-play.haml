@@ -17,20 +17,15 @@ Link text: About
 
   .row
     .col-md-7
-      %h2 Asset Management
+      %h2 TBD
 
     .col-md-5
       = haml :commands_menu, :layout => false
-      %h2 Diverse Strategies
-      :markdown
-        * Geographic
-        * Value aka Ben Graham cigar butts
-        * Trend and mean reversion
-        * Mathematic integration to interactive brokers
+      = haml :dashboard_menu, :layout => false
 
   .row
     .col-md-9
-      %h2 Latest Technical Notes
+      %h2 More stuff
       /= article_summaries(latest_articles)
     .col-md-3
       /= haml :strategy_menu, :layout => false
