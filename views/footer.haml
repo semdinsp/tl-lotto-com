@@ -1,0 +1,36 @@
+
+%br
+%br
+.footer
+  #accordion.panel-group
+    .panel.panel-default
+      .panel-heading
+        %h5.panel-title
+          %a{:class=>"accordion-toggle", "data-toggle"=>"collapse" , "data-parent"=>"#accordian", "data-target"=>"#collapseOne"}
+            Show Version and Copyright
+      #collapseOne.panel-collapse.collapse
+        .panel-body
+          = "Version: 1.2 " 
+          %img(src="/attachments/estorm.jpg" class="img-responsive" alt='estorm logo')
+          %a(href='http://www.ficonab.com')
+            %h6 Copyright Etorm Technologies Pte. Ltd. 2013
+          %p
+            %small Company registration: 200904977M
+          %p
+            %small
+              Developed by Scott with Nesta, a
+              = succeed "." do
+                %a(href="http://nestacms.com") Ruby CMS
+              using the twitter 
+              %a(href="http://getbootstrap.com/") boostrap
+              css v3 to provide responsive support on various devices.
+              Code for the entire website is available at
+              %a(href="http://github.com/semdinsp/tl-lotto-com") github source
+
+
+%script(type="text/javascript" src="http://code.jquery.com/jquery.js")
+%script(type="text/javascript" src="/bootstrap/dist/js/bootstrap.min.js")
+%script(type="text/javascript" src="/javascripts/application.js")
+%script(type="text/javascript" src="http://yandex.st/highlightjs/7.3/highlight.min.js")
+  :javascript
+    hljs.initHighlightingOnLoad();

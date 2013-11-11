@@ -1,0 +1,39 @@
+Title: Ficonab Overview
+Template: home
+Layout: toppage
+Link text: Test
+
+%header(role="banner")
+  %hgroup 
+    %img{:src=>"attachments/ficonab.jpg", :width => "100", :height=>"45"}  
+
+%section.intro2
+  %heading
+    %h1 Ficonab
+  :markdown
+    ...
+
+    An algorithmic trading project using Mathematica and integrated with [Interactive Brokers](/mathematica).
+  .content
+    %table.lgfont
+      %tr
+        %td     
+          %a(href="/strategies" ) 
+            Strategies
+            %img{:src=>"attachments/OverallResults.jpg", :width => "240", :height=>"180", :alt=>"Strategies"}
+        %td 
+          %a(href="/strategies/geographic") 
+            Geographic Strategy
+            %img{:src=>"attachments/worldmap.gif", :width => "240", :height=>"180"}
+      %tr
+        %td
+          %a(href="/mathematica") 
+            Technology
+            %img{:src=>"attachments/mathematica.png", :width => "200", :height=>"140"}
+        %td
+          %a(href="/strategies/value") 
+            Value
+            %img{:src=>"attachments/bengraham.jpeg", :width => "150", :height=>"200"}
+
+
+

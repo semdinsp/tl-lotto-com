@@ -1,0 +1,36 @@
+Title: How to Play
+Template: home
+Link text: About
+
+
+.container
+  .row
+    .col-offset-1.col-md-10
+      .hero-unit
+        %section.intro
+          %heading
+          %h1
+            = I18n.translate('howtoplay.title')
+          :markdown
+            Playing is simple send "4D" to 3031 for an entry.  75 cents per entry.
+            You can choose your own numbers by sending 4D 1 2 3 4 (or any other numbers)
+
+  .row
+    .col-md-7
+      %h2 Asset Management
+
+    .col-md-5
+      = haml :commands_menu, :layout => false
+      %h2 Diverse Strategies
+      :markdown
+        * Geographic
+        * Value aka Ben Graham cigar butts
+        * Trend and mean reversion
+        * Mathematic integration to interactive brokers
+
+  .row
+    .col-md-9
+      %h2 Latest Technical Notes
+      /= article_summaries(latest_articles)
+    .col-md-3
+      /= haml :strategy_menu, :layout => false

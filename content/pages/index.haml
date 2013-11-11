@@ -1,0 +1,30 @@
+Template: home
+Link text: Home page
+
+.container
+  .row
+    .col-offset-3.col-md-6
+      %h1 Ficonab Pte. Ltd.
+      %p.lead
+        :markdown
+          An [algorithmic trading](/strategies) project using [Mathematica](/technotes) and integrated with [Interactive Brokers](/technotes).
+  .row
+    .col-offset-2.col-md-4
+      %a(href="/about" ) 
+        %p Performance Summary
+        %img{:src=>"attachments/OverallResults.jpg", :width => "240", :height=>"180", :alt=>"Summary"}
+    .col-offset-1.col-md-4
+      %a(href="/strategies/geographic") 
+        %p Geographic Strategy
+        %img{:src=>"attachments/worldmap.gif", :width => "240", :height=>"180"}
+  .row
+    .col-offset-2.col-md-4
+      %a(href="/technotes") 
+        %p Technology
+        %img{:src=>"attachments/mathematica.png", :width => "200", :height=>"140"}
+    .col-offset-1.col-md-4  
+      %a(href="/strategies/value") 
+        %p Value
+        %img{:src=>"attachments/bengraham.jpeg", :width => "150", :height=>"200"}
+
+

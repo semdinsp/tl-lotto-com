@@ -1,0 +1,24 @@
+en:
+  howtoplay:
+    title: 'How To Play'
+    prizes: 'Prizes'
+    odds: 'Odds of Winning'
+    draws: "Draws"
+  contact:
+    title: "Contact"
+    cs: "For further information please contact Telkcomcel CS at 123 on your telkcomcel mobile phone"
+    estorm: "Or contact estorm at info@estormtech.com"
+    office: "Our office address is:"
+  commands:
+    title: "SMS Commands to 3031"
+    4d: "get a random 4D entry"
+    4dxxxx: "get an entry with your four digits"
+  prizes:
+    claim: 'How to claim'
+    claimdetails: "For prizes under $200 they will be sent to you automatically as load or a free entry for the next draw.  For prizes over $200 you can claim cash from our office at "
+  draws:
+    drawdetails: "TBD "
+    heading: "TBD "
+    
+
+    

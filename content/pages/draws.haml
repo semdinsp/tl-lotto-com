@@ -1,0 +1,28 @@
+Title: SMS Draws
+Template: home
+Link text: Draws
+
+
+.container
+  .row
+    .col-offset-1.col-md-5
+      .hero-unit
+        %section.intro
+          %heading
+          %h1
+            = I18n.translate('howtoplay.draws')
+          :markdown
+            Draws are held electronically.
+    .col-md-5
+      = haml :commands_menu, :layout => false
+
+  .row
+    .col-offset-1.col-md-5
+      %h3
+        = I18n.translate('draws.heading')
+      %p
+        = I18n.translate('draws.drawdetails')
+        %a(href="prizes") 
+          prize
+
+

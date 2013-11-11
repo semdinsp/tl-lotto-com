@@ -1,0 +1,14 @@
+%nav.navbar.navbar-default(role = "navigation")
+  .navbar-header
+    %button.navbar-toggle{:type => "button", "data-toggle" => "collapse", "data-target" => ".navbar-ex-collapse"}
+      %span.sr-only Toggle Navigation
+      - 1.upto(3) do |i|
+        %span.icon-bar
+    %a(class="navbar-brand" href="/")
+      .span
+        %img( src="/attachments/estorm.jpg" width=23 height=23 alt='estorm logo')
+        = @heading
+    .navbar-collapse.collapse.navbar-ex-collapse.pull-right
+      - display_menu(@menu_items, :class => "nav navbar-nav", :levels => 1)
+
+

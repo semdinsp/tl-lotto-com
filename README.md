@@ -3,6 +3,8 @@
 
 # These are the public websites for estorm customers
 They use nesta cms as a basic platform and haml for markdown.
-There is some interesting haml code if you take a look through the pages to manage menus etc.  In particular this nesta site supports translations using the iI8n gem.
+There is some interesting haml code if you take a look through the pages to manage menus etc.  In particular this nesta site supports translations using the iI8n gem. Review the code in app.rb where I evaluate the page headings if they include a translation
 
 There is a travis job running to validate the sites on every commit.  
+
+
