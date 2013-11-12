@@ -5,11 +5,16 @@ Link text: Odds
 
 .container
   .row
-    .col-offset-1.col-md-10
+    .col-md-7
       .hero-unit
         %section.intro
           %heading
           %h1
             = I18n.translate('howtoplay.odds')
-          :markdown
-            Odds are great
+          %p
+            = I18n.translate('odds.overall')
+          %p
+            = I18n.translate('odds.major')
+    .col-md-5
+      = haml :commands_menu, :layout => false
+      = haml :dashboard_menu, :layout => false

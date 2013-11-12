@@ -6,11 +6,26 @@ module Nesta
     not_found do
       cache haml("404".to_sym)
     end
+    enable :sessions
+    before do
+          if request.path_info =~ Regexp.new('./$')
+            redirect to(request.path_info.sub(Regexp.new('/$'), ''))
+          end
+          I18n.locale = session[:language] if session[:language]!=nil
+        end
      configure do
         I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
         I18n.load_path=Dir[File.join(settings.root, 'config/locales', '*.yml')]
         I18n.backend.load_translations
         I18n.locale = 'en'
+      end
+      post '/lang/:id' do
+        puts "in lang"
+        lang=params[:id]
+        puts "lang is #{lang}"
+        I18n.locale =lang if ['en','tet','ba'].include?(lang)
+        session[:language]=lang if ['en','tet','ba'].include?(lang)
+        redirect to('/')
       end
   end
   class Page

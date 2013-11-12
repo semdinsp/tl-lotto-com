@@ -24,6 +24,10 @@ en:
   dashboard:
     title: "Visit the dashboard to watch entries in real time"
     summary: "The dashboard can monitor your entry and watch results from past draws "
+  odds:
+    overall: "The odds odds of winning a prize is 1 in 10 (eg on average if you purchase 10 entries you should win something.  This might be a large prize or a small prize.) Try your luck responsibly.  Every day there are winners"
+    major: "The major prize odds of winning is 1 in 10000 (eg 4 numbers each having 10 chances of being correct is 10*10*10*10)"
+    summary: "The dashboard can monitor your entry and watch results from past draws"
     
 
     
