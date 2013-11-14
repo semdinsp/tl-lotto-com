@@ -22,8 +22,9 @@ module Nesta
       post '/lang/:id' do
         lang=params[:id]
         if ['en','tet','ba'].include?(lang)
-           I18n.locale =lang if ['en','tet','ba'].include?(lang)
-           session[:language]=lang if ['en','tet','ba'].include?(lang)
+           puts "setting language to #{lang}"
+           I18n.locale = lang 
+           session[:language]=lang 
          end
         redirect to('/')
       end

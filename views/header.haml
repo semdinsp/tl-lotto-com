@@ -20,7 +20,7 @@
             Language
             %span.caret
           %ul.dropdown-menu(role="menu" aria-labelledby="dropdownMenu1")
-            - droplist=[{:iclass => "", :val=> 'Tetun',:lang=>'tet', :url=>'/lang/tet'},{:iclass => "",:val=> 'English', :url=>'/lang/en', :lang => 'en' },{:iclass => "divider",:val=>" ", :lang=>'en'},{:iclass => "", :val=> 'Bahasa',:lang=>'ba', :url=>'/lang/tet'}] 
+            - droplist=[{:iclass => "", :val=> 'Tetun',:lang=>'tet', :url=>'/lang/tet'},{:iclass => "",:val=> 'English', :url=>'/lang/en', :lang => 'en' },{:iclass => "divider",:val=>" ", :lang=>'en'},{:iclass => "", :val=> 'Bahasa',:lang=>'ba', :url=>'/lang/ba'}] 
             - droplist.each do |litem|
               %li(class = "#{litem[:iclass]}" role="presentation")
                 %form{:id => litem[:val], :action => litem[:url], 'method' => 'post'} 
