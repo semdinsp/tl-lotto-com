@@ -19,7 +19,8 @@ Link text: About
             Match 1 gets a last entry.
             Match all the digits in reverse order and you win a consolation prize of $200.
 
-            For example if the winner was 1234 and your number was 5674 you would match 1 and get a free entry.  If your number was 4568 you would not match anything.
+          %p= I18n.translate('prizes.free_entry')
+          %p= I18n.translate('prizes.dash')
 
     .col-md-5
       = haml :commands_menu, :layout => false

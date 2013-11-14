@@ -4,11 +4,16 @@ en:
     prizes: 'Prizes'
     odds: 'Odds of Winning'
     draws: "Draws"
+    para1: "Playing is simple send '4D' to 3031 for an entry.  75 cents per entry. You can choose your own numbers by sending '4D 1 2 3 4' (or any other numbers) to 3031"
+    entries: "Entries"
+    para2: "When you send an entry in you will receive a message stating the drawdata and a security code.  The security code provides assurance that the entry is valid and we can use it for proof."
+    soldout: "Soldout"
+    soldout2: "Sometimes a number has been sold out.  If this is the case you will recieve notification that the number is sold out and a new random entry will be created.  The draw table has a fixed number of entries which can be sold and a number is sold out when there is more entries than the fixed number.  The sold out feature ensures that the operator can pay all winners and is a benefit to the player."
   contact:
     title: "Contact"
     cs: "For further information please contact Telkcomcel CS at 123 on your telkcomcel mobile phone"
     estorm: "Or contact estorm at info@estormtech.com"
-    office: "Our office address is:"
+    office: "Our temporary office address is at Konnekto at landmark plaza.  We will be moving our office to Timor Plaza shortly."
   commands:
     title: "SMS Commands to 3031"
     4d: "get a random 4D entry"
@@ -17,17 +22,33 @@ en:
     claim: 'How to claim'
     claimdetails: "For prizes under $200 they will be sent to you automatically as load or a free entry for the next draw.  For prizes over $200 you can claim cash from our office at "
     expiry: "Prize expiry"
+    free_entry: "For example if the winning number was 1234 and your number was 5674 you would match 1 and get a free entry. If your number was 4568 you would not match anything."
+    dash: "Visit the dashboard to see how many winners we have given prizes to.  There will also be pictures on the dashboard of winners"
     expirydetails: "You must claim your prize withing 30 days.  Unclaimed prizes will be donated to a charity to be decided by Telkcomcel"
   draws:
-    drawdetails: "TBD "
-    heading: "TBD "
+    drawdetails: "Draws are held electronically using randomly generated results.  After the draw is held all players will receive notification of the draw result and also will be notified if they are a winner.  Free entries to the next draw will be automatically sent to the player. "
+    heading: "Draws "
+    prizes: "If you visit the dashboard you can see past winners and the daily results.  In addition you can see the real time odds of winning. "
+    daily: "Draws are held daily which means every day there is a possiblity of winning.  As the odds of winning are less than 1 in 10 this means that in general if you send in 10 entries you should win something. "
   dashboard:
     title: "Visit the dashboard to watch entries in real time"
     summary: "The dashboard can monitor your entry and watch results from past draws "
   odds:
     overall: "The odds odds of winning a prize is 1 in 10 (eg on average if you purchase 10 entries you should win something.  This might be a large prize or a small prize.) Try your luck responsibly.  Every day there are winners"
     major: "The major prize odds of winning is 1 in 10000 (eg 4 numbers each having 10 chances of being correct is 10*10*10*10)"
+    suggest: "You can get a random suggested number by sending 'suggest' to 3030.  THis number will be unique to you and any data you send in the message like your birthday or zodiac sign."
     summary: "The dashboard can monitor your entry and watch results from past draws"
-    
+  help3030:
+    title: "SMS Commands to 3030"
+    help: "get help on the system"
+    lang: "set the system to various languages (english LANG EN) (bahasa LANG BA) (tetun LANG tet) (portugese LANG port)"
+    reg: "register your nick name (REG nickname)"  
+    suggest: "get a suggest 4D entry based on your birthdate or zodiac sign  (SUGGEST aquarius)"
+  index:
+    heading: "Telkcomcel SMS Games"
+    dash: "Real Time Dashboard"
+    easy: "Its so easy to play even a cat can do it"
+    daily: "Daily Winners"
+    summary: "1 in 10 chances to win. Win up to $1000 USD on your phone Other exciting games will be coming shortly. Powered exclusively by the Telkomcel Network in Timor Leste"
 
     

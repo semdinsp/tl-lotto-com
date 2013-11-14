@@ -5,27 +5,29 @@ Link text: About
 
 .container
   .row
-    .col-offset-1.col-md-10
+    .col-md-offset-1.col-md-7
       .hero-unit
         %section.intro
           %heading
           %h1
             = I18n.translate('howtoplay.title')
-          :markdown
-            Playing is simple send "4D" to 3031 for an entry.  75 cents per entry.
-            You can choose your own numbers by sending 4D 1 2 3 4 (or any other numbers)
+          %p= I18n.translate('howtoplay.para1')
 
   .row
     .col-md-7
-      %h2 TBD
-
+      %h2= I18n.translate('howtoplay.entries')
+      %p= I18n.translate('howtoplay.para2')
+      %h2= I18n.translate('howtoplay.soldout')
+      %p= I18n.translate('howtoplay.soldout2')
+      = haml :help3030_menu, :layout => false 
+      
     .col-md-5
       = haml :commands_menu, :layout => false
       = haml :dashboard_menu, :layout => false
 
   .row
     .col-md-9
-      %h2 More stuff
+      / %h2 More stuff
       /= article_summaries(latest_articles)
     .col-md-3
       /= haml :strategy_menu, :layout => false

@@ -10,18 +10,17 @@ Link text: Draws
         %section.intro
           %heading
           %h1
-            = I18n.translate('howtoplay.draws')
-          :markdown
-            Draws are held electronically.
+            = I18n.translate('draws.heading')
+          %p= I18n.translate('draws.drawdetails')
+          %p= I18n.translate('draws.daily')
     .col-md-5
       = haml :commands_menu, :layout => false
-
+      = haml :help3030_menu, :layout => false 
+      
   .row
     .col-offset-1.col-md-5
-      %h3
-        = I18n.translate('draws.heading')
       %p
-        = I18n.translate('draws.drawdetails')
+        = I18n.translate('draws.prizes')
         %a(href="prizes") 
           prize
 

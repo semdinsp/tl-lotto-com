@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+  - "2.0.0"
+gemfile: Gemfile
+script: sh -c 'ruby test_app.rb'
+notifications:
+  recipients:
+    - scott.sproule@estormtech.com
+  email:
+    on_success: change
+    on_failure: always
+

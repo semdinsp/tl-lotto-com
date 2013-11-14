@@ -3,28 +3,31 @@ Link text: Home page
 
 .container
   .row
-    .col-offset-3.col-md-6
-      %h1 Telkomcel SMS Games
-      %p.lead
-        :markdown
-          1 in 10 chances to win. Win up to $1000 USD on your [phone](/how-to-play).
+    .col-md-offset-2.col-md-6
+      %h1
+        = I18n.translate('index.heading') 
+      %p.lead= I18n.translate('index.summary')
+    .col-md-3
+      %img( src="/attachments/telkomcel.jpg" width=120 height=40 alt='telcomcel logo')
+        %p powered by Telkomcel Timor Leste
+        
   .row
-    .col-offset-2.col-md-4
+    .col-md-offset-1.col-md-3
       %a(href="http://tl-sms-dashboard-public.herokuapp.com/lotto" ) 
-        %p Real time dashboard
+        %p= I18n.translate('index.dash') 
         %img{:src=>"attachments/dashboard.jpg", :width => "240", :height=>"180", :alt=>"Dashba"}
-    .col-offset-1.col-md-4
+    .col-md-3
       %a(href="/prizes") 
-        %p Prizes
+        %p= I18n.translate('howtoplay.prizes') 
         %img{:src=>"attachments/poster.jpg", :width => "240", :height=>"180"}
   .row
-    .col-offset-2.col-md-4
+    .col-md-offset-1.col-md-3
       %a(href="/how-to-play") 
-        %p It's easy to play
-        %img{:src=>"attachments/mathematica.png", :width => "200", :height=>"140"}
-    .col-offset-1.col-md-4  
+        %p= I18n.translate('index.easy') 
+        %img{:src=>"attachments/monkey.jpg", :width => "230", :height=>"220"}
+    .col-md-3
       %a(href="/draws") 
-        %p Daily Winners
-        %img{:src=>"attachments/bengraham.jpeg", :width => "150", :height=>"200"}
+        %p= I18n.translate('index.daily')  
+        %img{:src=>"attachments/lottoballs.jpeg", :width => "230", :height=>"150"}
 
 

@@ -10,7 +10,7 @@ require 'nesta/app'
 
 ENV['RACK_ENV'] = 'test'
 
-class FiconabTest < Test::Unit::TestCase
+class TLLottoTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
   def app
@@ -21,12 +21,12 @@ class FiconabTest < Test::Unit::TestCase
     get '/'
     #puts last_response.methods
     assert last_response.ok?
-    assert last_response.body.include? 'Ficonab Pte. Ltd.'
+    assert last_response.body.include? 'powered by'
   end
 
   def test_key_pages
      
-     pagelist=["contact","about","technotes","strategies","strategies/value", "/"]
+     pagelist=["contact","draws","how-to-play","prizes","odds-of-winning", "index"]
      puts "testing top level pages #{pagelist.inspect}"
      pagelist.each { |page| 
           get page
@@ -34,23 +34,6 @@ class FiconabTest < Test::Unit::TestCase
           #assert_equal last_response.body.includes? 'Ficonab Pte. Ltd.'
             }
    end
-   def test_technotes_pages
-      pagelist=["bootstrapv3","coffeescript","resque","sendmail", "heroku","postgres", "postgres", "bunny-amqp","email-authentication"]
-      puts "testing tech note pages #{pagelist.inspect}"
-      pagelist.each { |page| 
-           get "technotes/#{page}"
-           assert last_response.ok?, "technotes/#{page} not found"
-           #assert_equal last_response.body.includes? 'Ficonab Pte. Ltd.'
-             }
-    end
-    def test_strategies_pages
-        pagelist=["geographic","value","lumpy_streams"]
-        puts "testing strategy pages #{pagelist.inspect}"
-        pagelist.each { |page| 
-             get "strategies/#{page}"
-             assert last_response.ok?, "strategies/#{page} not found"
-             #assert_equal last_response.body.includes? 'Ficonab Pte. Ltd.'
-               }
-      end
+  
   
 end
