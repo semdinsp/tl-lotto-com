@@ -14,6 +14,7 @@ en:
     cs: "For further information please contact Telkcomcel CS at 123 on your telkcomcel mobile phone"
     estorm: "Or contact estorm at info@estormtech.com"
     office: "Our temporary office address is at Konnekto at landmark plaza.  We will be moving our office to Timor Plaza shortly."
+    address: "Temporary Office Address."
   commands:
     title: "SMS Commands to 3031"
     4d: "get a random 4D entry"
