@@ -10,14 +10,15 @@ Link text: About
         %section.intro
           %heading
           %h1
-            = I18n.translate('howtoplay.prizes')
-          :markdown
-            Prizes are based on the number of digits you match from the right to the left.
-            Match 4 wins $1000
-            Match 3 wins $40
-            Match 2 wins $4
-            Match 1 gets a last entry.
-            Match all the digits in reverse order and you win a consolation prize of $200.
+            = I18n.translate('prizes.title')
+          %p
+            = I18n.translate('prizes.summary')
+          %ul
+            %li= I18n.translate('prizes.match4') 
+            %li= I18n.translate('prizes.match3') 
+            %li= I18n.translate('prizes.match2')
+            %li= I18n.translate('prizes.match1')
+          %p= I18n.translate('prizes.consolation')
 
           %p= I18n.translate('prizes.free_entry')
           %p= I18n.translate('prizes.dash')
@@ -37,6 +38,12 @@ Link text: About
         = I18n.translate('prizes.expiry')
       %p
         = I18n.translate('prizes.expirydetails')
+      %h3
+        = I18n.translate('t_c.full')
+      %p
+        = I18n.translate('t_c.link')
+        %a(href="/t_and_c")
+          = I18n.translate('t_c.full')
     .col-md-5
       = haml :dashboard_menu, :layout => false
         

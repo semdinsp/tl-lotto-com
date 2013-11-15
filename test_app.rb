@@ -27,7 +27,7 @@ class TLLottoTest < Test::Unit::TestCase
 
   def test_key_pages
      
-     pagelist=["contact","draws","how-to-play","prizes","odds-of-winning", "index"]
+     pagelist=["contact","draws","how-to-play","prizes","odds-of-winning", "index", "t_and_c"]
      puts "testing top level pages #{pagelist.inspect}"
      pagelist.each { |page| 
           get page

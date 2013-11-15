@@ -4,3 +4,4 @@ draws
 prizes
 odds-of-winning
 contact
+t_and_c
