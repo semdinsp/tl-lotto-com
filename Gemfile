@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 # update to rvm gem 'rack', '1.4.5'
 ruby "2.0.0"
+gem 'foreman'
 gem 'sinatra'
 gem 'unicorn'
 gem 'i18n'
