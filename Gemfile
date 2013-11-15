@@ -3,11 +3,11 @@ source 'http://rubygems.org'
 ruby "2.0.0"
 gem 'foreman'
 gem 'sinatra'
-gem 'unicorn'
+gem 'puma'
 gem 'i18n'
 # update to rvm gem 'sinatra', '1.3.6'
 #gem 'rack', '1.4.5'   # fix bug on rack on deployment server--test to see if this can be removed.
-gem 'nesta', '0.9.13'
+gem 'nesta' #, '0.9.13'
 gem 'rack-test'
 
 
