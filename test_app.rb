@@ -18,6 +18,7 @@ class TLLottoTest < Test::Unit::TestCase
   end
 
   def test_first_pageworks
+    puts "testing first page"
     get '/'
     #puts last_response.methods
     assert last_response.ok?
