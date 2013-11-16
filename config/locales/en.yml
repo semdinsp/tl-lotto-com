@@ -29,8 +29,8 @@ en:
     expirydetails: "You must claim your prize withing 30 days.  Unclaimed prizes will be donated to a charity to be decided by Telkcomcel"
     consolation: "Match all the digits in reverse order and you win a consolation prize of $200."
     match1: "Match 1 digits wins a free entry"
-    match2: "Match 2 digits wins $4"
-    match3: "Match 3 digits wins $40"
+    match2: "Match 2 digits wins $5"
+    match3: "Match 3 digits wins $25"
     match4: "Match 4 digits wins $1000"
     title: "Prizes"
   draws:
