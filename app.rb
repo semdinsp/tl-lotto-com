@@ -8,10 +8,11 @@ module Nesta
     end
     enable :sessions
     before do
+          I18n.locale = session[:language] if session[:language]!=nil
           if request.path_info =~ Regexp.new('./$')
             redirect to(request.path_info.sub(Regexp.new('/$'), ''))
           end
-          I18n.locale = session[:language] if session[:language]!=nil
+          
         end
      configure do
         I18n::Backend::Simple.send(:include, I18n::Backend::Fallbacks)
