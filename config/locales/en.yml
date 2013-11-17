@@ -38,6 +38,7 @@ en:
     heading: "Draws "
     prizes: "If you visit the dashboard you can see past winners and the daily results.  In addition you can see the real time odds of winning. "
     daily: "Draws are held daily which means every day there is a possiblity of winning.  As the odds of winning are less than 1 in 10 this means that in general if you send in 10 entries you should win something. "
+    close: "Draws close automatically at 8:00 pm Timor Leste Time.  A new draw will be opened and any entry received after the draw is closed will be entered into the nexts day draw. The electronic draw will take place after the closing and players will be notified of the result and if they won."
   dashboard:
     title: "Visit the dashboard to watch entries in real time"
     summary: "The dashboard can monitor your entry and watch results from past draws "

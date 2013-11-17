@@ -9,7 +9,7 @@ module Nesta
     set :session_secret, "tl-lotto-web"
     enable :sessions
     before do
-          puts "session is #{session.inspect}"
+          #puts "session is #{session.inspect}"
           I18n.locale = session[:language] if session[:language]!=nil
           if request.path_info =~ Regexp.new('./$')
             redirect to(request.path_info.sub(Regexp.new('/$'), ''))
