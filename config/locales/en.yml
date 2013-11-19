@@ -13,7 +13,7 @@ en:
     title: "Contact"
     cs: "For further information about Lucky SMS please contact Telkcomcel CS at 123 on your telkcomcel mobile phone"
     estorm: "Or contact estorm at info@estormtech.com"
-    office: "Our temporary office address is at Konnekto at Landmark Plaza.  We will be moving our office to Timor Plaza shortly."
+    office: "Our temporary office address is at Konnekto at 2nd Floor of Landmark Plaza.  We will be moving our office to Timor Plaza shortly."
     address: "Temporary Office Address."
   commands:
     title: "SMS Commands to 3031"
@@ -23,15 +23,15 @@ en:
     claim: 'How to claim'
     claimdetails: "For prizes under $200 they will be sent to you automatically as load or a free entry for the next draw.  For prizes over $200 you can claim cash from our office at "
     expiry: "Prize expiry"
-    summary: "Prizes are based on the number of digits you match from the left to the right.  Eg match 1 digit is match the last digit on the left.  Match 3 is match the last three digits"
+    summary: "Prizes are based on the number of digits you match from the right to the left.  Eg match 1 digit is match the last digit on the right.  Match 3 is match the last three digits on the right"
     free_entry: "For example if the winning number was 1234 and your number was 5674 you would match 1 and get a free entry. If your number was 4568 you would not match anything."
     dash: "Visit the dashboard to see how many winners we have given prizes to.  There will also be pictures on the dashboard of winners"
     expirydetails: "You must claim your prize withing 30 days.  Unclaimed prizes will be donated to a charity to be decided by Telkcomcel"
     consolation: "Match all the digits in reverse order and you win a consolation prize of $200."
-    match1: "Match 1 digits wins a free entry"
-    match2: "Match 2 digits wins $5"
-    match3: "Match 3 digits wins $25"
-    match4: "Match 4 digits wins $1000"
+    match1: "Match 1 digits wins a free entry in the next lottery"
+    match2: "Match 2 digits wins $5 in Telkcomcel credit"
+    match3: "Match 3 digits wins $25 in Telkcomcel credit"
+    match4: "Match 4 digits wins $1000 USD"
     title: "Prizes"
   draws:
     drawdetails: "Draws are held electronically using randomly generated results.  After the draw is held all players will receive notification of the draw result and also will be notified if they are a winner.  Free entries to the next draw will be automatically sent to the player. "
@@ -69,6 +69,9 @@ en:
     term4: "Prizes can be made in cash, check and credit at the discretion of the operator"
     term5: "Winners must be over 17 years old to claim their prize."
     term6: "Major prize (winners of prizes > $50) winner's phone must be able to receive a sms as part of the redemption process includes receiving a sms with a security code in it."
+    term7: "The winner agrees to a photo, providing a copy of their ID and signing an agreement to acknowledge reception of the prize."
+    term8: "Draws will be electronic and randomly selected after the draw closes. The draw will close approximately 8:00 pm Timor Leste time and the electronic draw conducted shortly afterwards."
+    term9: "Prizes are based on the number of digits matched from right to left.  Match 1 is match 1 digit on the right.  Match 4 is match all 4 digits from right to left.  Match 2 and 3 are similar. A single entry can only win one prize and that prize is the largest possible. For the avoidance of doubt an entry who matches 4 digits gets the 4 digit prize and not the match 3 and match 2 digit prizes."
     revision: "Terms and conditions may be revised at any point by the operator."
     
     
