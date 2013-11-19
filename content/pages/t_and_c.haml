@@ -5,11 +5,15 @@ Link text: T&C
 
 .container
   .row
-    .col-offset-1.col-md-5
+    .col-offset-1.col-md-7
       .hero-unit
-        %section.intro
-          %heading
+        .hidden
           %h1
             = I18n.translate('t_c.title')
-          :markdown
-            Terms and conditions here.
+        .visible
+          %h2
+            = I18n.translate('t_c.full')
+          %ol
+            -1.upto(6) do |i|
+              %li= I18n.translate("t_c.term#{i}")
+            %li= I18n.translate('t_c.revision')
