@@ -17,3 +17,5 @@ Link text: T&C
             -1.upto(9) do |i|
               %li= I18n.translate("t_c.term#{i}")
             %li= I18n.translate('t_c.revision')
+    .col-md-5
+      = haml :drachen_menu, :layout => false

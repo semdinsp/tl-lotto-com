@@ -1,5 +1,9 @@
 .row
   .col-md-offset-7.col-md-3
+    %p 
+      A marketing service provided by Estorm on behalf of 
+      %a(href="/t_and_c")
+        Drachen, Unipessoal Lda
     %img( src="/attachments/telkomcel.jpg" width=120 height=40 alt='telcomcel logo')
     %p powered by Telkomcel TL
 .row
@@ -12,12 +16,17 @@
         %h5.panel-title
           %a{:class=>"accordion-toggle", "data-toggle"=>"collapse" , "data-parent"=>"#accordian", "data-target"=>"#collapseOne"}
             %small
-              Show Version and Copyright
+              Copyright and Legal
       #collapseOne.panel-collapse.collapse
         .panel-body
+          %p 
+            Estorm Technologies provides marketing and operational services on behalf of 
+            %a(href='/t_and_c')
+              %h6 Drachen, Unipessoal Lda
+            which holds a business license for SMS Entertainment in Timor Leste 
           = "Version: 1.2 " 
           %img(src="/attachments/estorm.jpg" class="img-responsive" alt='estorm logo')
-          %a(href='http://www.ficonab.com')
+          %a(href='http://www.estormtech.com')
             %h6 Copyright Etorm Technologies Pte. Ltd. 2013
           %p
             %small Company registration: 200904977M

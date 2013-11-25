@@ -60,7 +60,7 @@ tet:
     daily: "Daily Winners"
     summary: "Win up to $1000 USD on your phone and free credit and free entries.  Match the last digit and get a free entry. Other exciting games will be coming shortly. Powered exclusively by the Telkomcel Network in Timor Leste"
   t_c:
-    title: "T & C"
+    title: "Legal"
     full: "Terms and Conditions"
     link: "See the terms and conditions for more details"
     term1: "Prizes must be claimed within 30 calendar days.  Unclaimed prizes will be allocated to a local charity of the operators choice."
@@ -73,6 +73,10 @@ tet:
     term8: "Draws will be electronic and randomly selected after the draw closes. The draw will close approximately 8:00 pm Timor Leste time and the electronic draw conducted shortly afterwards."
     term9: "Prizes are based on the number of digits matched from right to left.  Match 1 is match 1 digit on the right.  Match 4 is match all 4 digits from right to left.  Match 2 and 3 are similar. A single entry can only win one prize and that prize is the largest possible. For the avoidance of doubt an entry who matches 4 digits gets the 4 digit prize and not the match 3 and match 2 digit prizes."
     revision: "Terms and conditions may be revised at any point by the operator."
+  drachen:
+    title: "Drachen Unipessoal Lda"
+    service: "Estorm provies the marketing and operations services to Drachen, Unipressoal Lda a local Timorese company which is licensed to operate SMS Entertainment Services in Timore Leste"
+    license: "License"
     
     
 
