@@ -7,7 +7,7 @@ ba:
     para1: " Ikutan main Lucky SMS sangatlah mudah, kirim 4D dan 4 angka beruntung anda (misalkan 4D 3 2 4 5, jangan lupa spasi diantara ke empat angka anda) ke 3031. Setiap Lucky SMS masuk 0.75 cents. Anda dapat memilih nomor keberuntugan Anda sendiri"
     entries: " Entri "
     para2: "Ketika Anda mengirim Angka keberuntungan Anda ke 3031, Anda akan menerima notifikasi yang menyatakan nomor terkirim Anda, Unik kode Anda untuk memberikan jaminan bahwa 4D nomor angka masih aktif dan dapat kita gunakan sebagai bukti"
-    soldout: " soldout "
+    soldout: "Soldout"
     soldout2: "Kadang-kadang ada nomor yang telah terjual habis Jika hal ini terjadi Anda akan menerima notifikasi bahwa nomor itu terjual habis dan kami akan mengacak angka baru untuk Anda. Misalkan, Anda kirim 4D 7 7 8 8 sebanyak 5 kali. Ketika Anda kirimkan 4D 7 7 8 8 ke enam kali, sistem kami secara otomatis akan mengirimkan notifasi nomor and sudah terjual habis dan kami kirimkan angka baru untuk Anda misalkan 7 7 9 9"
   contact:
     title: "Kontak"
@@ -38,6 +38,7 @@ ba:
     heading: "Penarikan"
     prizes: "Jika Anda mengunjungi dashboard Anda bisa melihat pemenang hasil masa lalu dan hari-hari. Selain itu anda dapat melihat peluang real time untuk menang"
     daily: "Penarikan diadakan setiap hari yang berarti setiap hari ada kemungkinan untuk memenangkan hadiah sebanyak $1000 uang tunai. Sebagai peluang untuk menang kurang dari 1 dalam 10 ini berarti bahwa secara umum jika Anda mengirimkan 10 kali Lucky SMS Anda akan mendapatkan sesuatu"
+    close: "Menarik menutup secara otomatis di 8:00 pm Timor Leste Time. Hasil imbang baru akan dibuka dan setiap entri yang diterima setelah undian ditutup akan dimasukkan ke dalam nexts hari imbang. Yang menarik elektronik akan berlangsung setelah penutupan dan pemain akan diberitahu hasilnya dan jika mereka menang."
   dashboard:
     title: " Kunjungi dashboard untuk menonton entri dalam real time "
     summary: "Dashboard dapat memonitor masuk dan melihat hasil dari masa lalu menarik"
@@ -51,7 +52,7 @@ ba:
     help: "Minta informasi lebih lanjut"
     lang: "Untuk merubah ke bahasa lain ( bahasa Inggris LANG EN ) ( bahasa LANG BA ) ( Tetun LANG tet ) ( Portugis pelabuhan LANG ) "
     reg: "mendaftarkan nama panggilan Anda ( REG nickname) "
-    suggest: " kirim 4D dan andka keberuntungan anda berdasarkan tanggal lahir atau tanda zodiak ( MENYARANKAN aquarius ) "
+    suggest: " kirim 4D dan andka keberuntungan anda berdasarkan tanggal lahir atau tanda zodiak ( suggest aquarius ) "
   index:
     heading: "Lucky SMS"
     dash: "Dashboard Real Time "
