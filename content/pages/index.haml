@@ -28,6 +28,7 @@ Link text: Home page
     .col-md-3
       %a(href="/draws") 
         %p= I18n.translate('index.daily')  
-        %img{:src=>"attachments/lottoballs.jpeg", :width => "230", :height=>"150"}
+        =haml :winners_carousel, :layout => false
+        
 
 

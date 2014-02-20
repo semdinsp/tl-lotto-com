@@ -10,7 +10,7 @@ ba:
     soldout: "Soldout"
     soldout2: "Kadang-kadang ada nomor yang telah terjual habis Jika hal ini terjadi Anda akan menerima notifikasi bahwa nomor itu terjual habis dan kami akan mengacak angka baru untuk Anda. Misalkan, Anda kirim 4D 7 7 8 8 sebanyak 5 kali. Ketika Anda kirimkan 4D 7 7 8 8 ke enam kali, sistem kami secara otomatis akan mengirimkan notifasi nomor and sudah terjual habis dan kami kirimkan angka baru untuk Anda misalkan 7 7 9 9"
   contact:
-    title: "Kontak"
+    title: "Kontak/Legal"
     cs: "Untuk informasi lebih lanjut mengenai Lucky SMS silahkan hubungi Telkcomcel CS di 123 pada telepon seluler Anda telkcomcel"
     estorm: "Atau hubungi estorm di info@estormtech.com"
     office: " Alamat kantor sementara kami di Konnekto di Landmark Plaza Kami akan pindah kantor kami ke untuk Timor Plaza lama "
@@ -60,7 +60,7 @@ ba:
     daily: " Pemenang Harian "
     summary: "Menangkan sampai $ 1000 USD dari Handphone Anda dan kredit dan permainan Lucky SMS gratis dengan Cocokkan digit terakhir dan mendapatkan Gratis untuk permainan menarik lainnya.  Didukung eksklusif oleh Jaringan Telkomcel di Timor Leste"
   t_c:
-    title: "Legal"
+    title: "Kontak/Legal"
     full: "Syarat dan Ketentuan "
     link: "Lihat syarat dan kondisi untuk rincian lebih lanjut "
   drachen:
