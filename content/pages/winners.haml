@@ -1,0 +1,26 @@
+Title: Prize Winners
+Template: home
+Link text: Winners
+
+
+.container
+  .row
+    .col-offset-1.col-md-7
+      .hero-unit
+        %section.intro
+          %heading
+          %h1
+            = I18n.translate('winners.heading')
+          = haml :winners_carousel, :layout => false
+          %p= I18n.translate('winners.para1')
+          %p= I18n.translate('winners.unclaimed')
+    .col-md-5
+      = haml :commands_menu, :layout => false
+      = haml :help3030_menu, :layout => false 
+      
+  .row
+    .col-offset-1.col-md-5
+      %p
+        = I18n.translate('draws.prizes')
+        %a(href="prizes") 
+          prize
