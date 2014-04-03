@@ -4,7 +4,7 @@ en:
     prizes: 'Prizes'
     odds: 'Odds of Winning'
     draws: "Draws"
-    para1: "Playing Lucky SMS is simple send '4D' to 3031 for an entry.  75 cents per entry. You can choose your own numbers by sending '4D 1 2 3 4' (or any other numbers) to 3031"
+    para1: "Playing Lucky SMS is simple send '4D' to 3031 for an entry.  75 cents per entry. You can choose your own numbers by sending '4D 1 2 3 4' (or any other numbers) to 3031. For lucky 3D send 3D to 3032"
     entries: "Entries"
     para2: "When you send an entry in you will receive a message stating the drawdata and a security code.  The security code provides assurance that the entry is valid and we can use it for proof."
     soldout: "Soldout"
@@ -16,9 +16,13 @@ en:
     office: "Our temporary office address is at Konnekto at 2nd Floor of Landmark Plaza.  We will be moving our office to Timor Plaza shortly."
     address: "Temporary Office Address."
   commands:
-    title: "SMS Commands to 3031"
+    title: "SMS Commands to 3031 75 cents/sms"
     4d: "get a random 4D entry"
     4dxxxx: "get a lucky entry with your four digits"
+  commands3d:
+    title: "SMS Commands to 3032 50 cents/sms"
+    3d: "get a random 3D entry"
+    3dxxxx: "get a lucky entry with your three digits"
   prizes:
     claim: 'How to claim'
     claimdetails: "For prizes under $200 they will be sent to you automatically as load or a free entry for the next draw.  For prizes over $200 you can claim cash from our office at "
@@ -33,6 +37,11 @@ en:
     match3: "Match 3 digits wins $25 in Telkcomcel credit"
     match4: "Match 4 digits wins $1000 USD"
     title: "Prizes"
+    4dtitle: '4D Prizes'
+    3dtitle: '3D Prizes'
+    3dmatch1: "Match 1 digits wins a free entry in the next lottery"
+    3dmatch2: "Match 2 digits wins $1 in Telkcomcel credit"
+    3dmatch3: "Match 3 digits wins $100 in cash"
   draws:
     drawdetails: "Draws are held electronically using randomly generated results.  After the draw is held all players will receive notification of the draw result and also will be notified if they are a winner.  Free entries to the next draw will be automatically sent to the player. "
     heading: "Draws "
@@ -47,6 +56,9 @@ en:
     major: "The major prize odds of winning is 1 in 10000 (eg 4 numbers each having 10 chances of being correct is 10*10*10*10)"
     suggest: "You can get a random suggested number by sending 'suggest' to 3030.  THis number will be unique to you and any data you send in the message like your birthday or zodiac sign."
     summary: "The dashboard can monitor your entry and watch results from past draws"
+    4dtitle: "4d Odds"
+    3dtitle: "3d Odds"
+    3dmajor: "The odds of winings the 3d Major prize is 1 in 1000. "
   help3030:
     title: "SMS Commands to 3030"
     help: "get help on the system"

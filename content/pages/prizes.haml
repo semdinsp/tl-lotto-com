@@ -11,6 +11,8 @@ Link text: About
           %heading
           %h1
             = I18n.translate('prizes.title')
+          %h2
+            = I18n.translate('prizes.4dtitle')
           %p
             = I18n.translate('prizes.summary')
           %ul
@@ -22,9 +24,17 @@ Link text: About
 
           %p= I18n.translate('prizes.free_entry')
           %p= I18n.translate('prizes.dash')
+          %h2
+            = I18n.translate('prizes.3dtitle')
+          %ul
+            %li= I18n.translate('prizes.3dmatch3') 
+            %li= I18n.translate('prizes.3dmatch2')
+            %li= I18n.translate('prizes.3dmatch1')
+          %p= I18n.translate('prizes.free_entry')
 
     .col-md-5
       = haml :commands_menu, :layout => false
+      = haml :commands3d_menu, :layout => false
 
   .row
     .col-offset-1.col-md-5

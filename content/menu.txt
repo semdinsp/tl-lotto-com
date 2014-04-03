@@ -3,5 +3,5 @@ how-to-play
 winners
 draws
 prizes
-odds-of-winning
+odds_of_winning
 t_and_c

@@ -13,11 +13,18 @@ Link text: Odds
             = I18n.translate('howtoplay.odds')
           %p
             = I18n.translate('odds.overall')
+          %h3
+            = I18n.translate('odds.4dtitle')
           %p
             = I18n.translate('odds.major')
+          %h3
+            = I18n.translate('odds.3dtitle')
+          %p
+            = I18n.translate('odds.3dmajor')
           %p
             = I18n.translate('odds.suggest')
             = haml :help3030_menu, :layout => false
     .col-md-5
       = haml :commands_menu, :layout => false
+      = haml :commands3d_menu, :layout => falser
       = haml :dashboard_menu, :layout => false
