@@ -4,7 +4,7 @@ require 'i18n/backend/fallbacks'
 module Nesta
   class App
     not_found do
-      cache haml("404".to_sym)
+       haml("404".to_sym)
     end
     set :session_secret, "tl-lotto-web"
     enable :sessions
