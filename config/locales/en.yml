@@ -97,12 +97,13 @@ en:
   cf:
     title: "Virtual Cockfighting"
     advisory: "Advisory"
-    ownmatch: "Don't see a lucky match? Create your own match by sending <cockname color opponent> to 3033."
-    noanimals: "We advocate using virtual cockfighting so that no animals are hurt.  This is an instant win typ game where you win prizes instantly.  $1/sms"
+    ownmatch: "Don't see your lucky match? Create your own match by sending 'cockname color opponent' to 3033."
+    noanimals: "This game has never hurt any animals. We advocate using virtual cockfighting so that no animals are hurt.  This is an instant win type game where you win prizes instantly.  $1/sms"
     upcoming: "Upcoming Rounds"
-    rounds: "Upcoming rounds are listed below. You can join any round by sending in the cock name color and opponent to 3033. eg matraca red isidora.  Any fields left blank will be randomly selected. You can change your weapon by sending weapon name to 3034"
+    rounds: "Upcoming rounds are listed belowand are updated automatically You can join any round by sending in the cock name color and opponent to 3033. eg matraca red isidora.  Any fields left blank will be randomly selected. You can change your weapon by sending weapon name to 3034"
     prizes: "Prizes"
     matches: "Matches"
+    wininstant: "Win Instantly!"
     fun: "Have fun, play responsibly"
     fighter: "Fighter"
     opponent: "Opponent"
@@ -111,6 +112,13 @@ en:
     weapon: "Try some cool weapons like a bazooka or death ray to see if it improves your winning changes.  Send <weapon weaponname> to 3034 to change your weapon.  eg weapon bazooka ($0.25/sms)"
     prizelist: "Prizes include cash and pulsa and the grand prize is an ipad mini.  Winners are assigned randomly and many grand prizes are available.  Pulsa prizes will be paid within 24 hours. Please contat 123 for ay information"
     summary2: "New instant win game cockfighting.  Win an iPad mini instantly.  Try it out now!"
-    
+  roostercmds:
+    title: "SMS Commands to 3033 ($1/sms) or 3034 ($0.25/sms)"
+    summary: "play instant win rooster"   
+    randopp: "play game with random opponent"
+    weapon: "set your rooster weapon to weapon."
+    bazooka: "set your weapon to be a bazooka and see if it helps you win"
+    rancol: "play game with random opponent and random color"
+     
 
     

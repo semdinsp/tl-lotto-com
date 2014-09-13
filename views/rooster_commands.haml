@@ -1,0 +1,15 @@
+.panel.panel-success
+  .panel-heading 
+    = I18n.translate('roostercmds.title')
+  .panel-body
+    %p Game and weapon commands
+    - heads = ["command","result"] 
+    - vals= [{cmd: "<rooster color opponent> to 3033",res: I18n.translate('roostercmds.summary')},{cmd: "rooster color", res: I18n.translate('roostercmds.randopp')},{cmd: "rooster", res: I18n.translate('roostercmds.randcol')},{cmd: "weapon weapo_name to 3034",res: I18n.translate('roostercmds.weapon')},{cmd: "weapon bozooka to 3034",res: I18n.translate('roostercmds.bazooka')}]
+    %table(class="table table-hover table-condensed")
+      %tr
+        - heads.each do |h|
+          %th=h
+      - vals.each do |v|
+        %tr
+          %td=v[:cmd]
+          %td=v[:res]

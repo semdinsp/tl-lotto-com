@@ -10,6 +10,8 @@ Link text: Roosters
           %heading
           %h1
             = I18n.translate('cf.title')
+          %h1
+            = I18n.translate('cf.wininstant')
           %h2
             = I18n.translate('cf.advisory')
           %p
@@ -41,7 +43,7 @@ Link text: Roosters
                   %td=leads[i]
                   %td=color[i]
                   %td=opps[i]
-                  %td="send #{leads[i]} #{color[i]} #{opps[i]} to 3033"
+                  %td="send '#{leads[i]} #{color[i]} #{opps[i]}' to 3033"
           %p
             = I18n.translate('cf.ownmatch')
           %h2
@@ -52,3 +54,5 @@ Link text: Roosters
             = I18n.translate('cf.prizes')
           %p
             = I18n.translate('cf.prizelist')
+    .col-md-5
+      = haml :rooster_commands, :layout => false
