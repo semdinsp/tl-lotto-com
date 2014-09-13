@@ -1,0 +1,54 @@
+Title: Cockfighting
+Template: home
+Link text: Roosters
+
+.container
+  .row
+    .col-offset-1.col-md-5
+      .hero-unit
+        %section.intro
+          %heading
+          %h1
+            = I18n.translate('cf.title')
+          %h2
+            = I18n.translate('cf.advisory')
+          %p
+            = I18n.translate('cf.noanimals')
+          %h2
+            = I18n.translate('cf.upcoming')
+          %p
+            = I18n.translate('cf.rounds')
+          %h3
+            = I18n.translate('cf.matches')
+            -  opponents=['Daro','Thumbelina', 'Tinkerbell','Patra','Doblado', 'Barong','Meron','Wala','Casador','Tabla','Dejado']
+            - colors=['red','brown','black','grey','white']
+            -  fighters= ['Mohenjo','Matraca','Mestizo','Sabong','Meron','Kristos','Ruweda','Ilamado']
+            - leads=[]
+            - opps=[]
+            - color=[]
+            - 1.upto(5) do |i|
+              - leads << fighters.sample
+              - opps << opponents.sample
+              - color<< colors.sample
+          %table(class="table table-hover table-condensed")
+            %tr
+              %th= I18n.translate('cf.fighter')
+              %th Color
+              %th Opponent
+              %th Command
+              - 1.upto(4) do |i|
+                %tr
+                  %td=leads[i]
+                  %td=color[i]
+                  %td=opps[i]
+                  %td="send #{leads[i]} #{color[i]} #{opps[i]} to 3033"
+          %p
+            = I18n.translate('cf.ownmatch')
+          %h2
+            = I18n.translate('cf.fun')
+          %p
+            = I18n.translate('cf.weapon')
+          %h2
+            = I18n.translate('cf.prizes')
+          %p
+            = I18n.translate('cf.prizelist')

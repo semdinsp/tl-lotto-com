@@ -94,7 +94,23 @@ en:
     heading: "Winners"
     para1: "Previous winners include the following:"
     unclaimed: "Unclaimed prizes are donated to local charities"
-    
+  cf:
+    title: "Virtual Cockfighting"
+    advisory: "Advisory"
+    ownmatch: "Don't see a lucky match? Create your own match by sending <cockname color opponent> to 3033."
+    noanimals: "We advocate using virtual cockfighting so that no animals are hurt.  This is an instant win typ game where you win prizes instantly.  $1/sms"
+    upcoming: "Upcoming Rounds"
+    rounds: "Upcoming rounds are listed below. You can join any round by sending in the cock name color and opponent to 3033. eg matraca red isidora.  Any fields left blank will be randomly selected. You can change your weapon by sending weapon name to 3034"
+    prizes: "Prizes"
+    matches: "Matches"
+    fun: "Have fun, play responsibly"
+    fighter: "Fighter"
+    opponent: "Opponent"
+    color: "Color"
+    command: "Command"
+    weapon: "Try some cool weapons like a bazooka or death ray to see if it improves your winning changes.  Send <weapon weaponname> to 3034 to change your weapon.  eg weapon bazooka ($0.25/sms)"
+    prizelist: "Prizes include cash and pulsa and the grand prize is an ipad mini.  Winners are assigned randomly and many grand prizes are available.  Pulsa prizes will be paid within 24 hours. Please contat 123 for ay information"
+    summary2: "New instant win game cockfighting.  Win an iPad mini instantly.  Try it out now!"
     
 
     

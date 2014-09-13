@@ -7,6 +7,10 @@ Link text: Home page
       %h1
         = I18n.translate('index.heading') 
       %p.lead= I18n.translate('index.summary')
+      %p.lead
+        = I18n.translate('cf.summary2')
+        %a(href="/cf")
+          = I18n.translate('cf.title')
     .col-md-3
       %img( src="/attachments/telkomcel.jpg" width=120 height=40 alt='telcomcel logo')
         %p powered by Telkomcel Timor Leste

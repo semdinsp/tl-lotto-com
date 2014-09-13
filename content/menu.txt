@@ -4,4 +4,5 @@ winners
 draws
 prizes
 odds_of_winning
+cf
 t_and_c
