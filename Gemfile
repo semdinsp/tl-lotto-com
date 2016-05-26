@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 # update to rvm gem 'rack', '1.4.5'
-ruby "2.0.0"
+ruby "2.1.5"
 gem 'foreman'
 gem 'sinatra'
 gem 'puma'
