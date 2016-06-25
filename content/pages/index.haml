@@ -7,6 +7,13 @@ Link text: Home page
       %h1
         = I18n.translate('index.heading') 
       %p.lead= I18n.translate('index.summary')
+      %h1
+        %a(href="/abc_scratch")
+          = I18n.translate('index.heineken')
+      %p.lead= I18n.translate('index.abc')
+      %p.lead
+        %a(href="/abc_scratch")
+          = I18n.translate('index.abclink')
       %p.lead
         = I18n.translate('cf.summary2')
         %a(href="/cf")
