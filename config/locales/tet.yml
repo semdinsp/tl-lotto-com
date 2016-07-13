@@ -12,9 +12,9 @@ tet:
   contact:
     title: "Contact/Legal"
     cs: "For further information about Lucky SMS please contact Telkcomcel CS at 123 on your telkcomcel mobile phone"
-    estorm: "Our local Office Manager is Mr Joaozinho Mashado. Please contact him at joaozinho@estormtech.com. (He is available at our office  at Landmard 9-12 on weekdays). Or contact estorm at info@estormtech.com"
-    office: "Our temporary office address is at Konnekto at 2nd Floor of Landmark Plaza.  We will be moving our office to Timor Plaza shortly."
-    address: "Temporary Office Address."
+    estorm: "Our local Office Manager is Ms Mili. Please contact him at info@estormtech.com. Or contact estorm at info@estormtech.com"
+    office: "Our office is at 2nd Floor of Landmark Plaza. Telephone: 78626721"
+    address: "We also have facilities at Pantai Kelapa, Warehouse"
   commands:
     title: "SMS Commands to 3031"
     4d: "get a random 4D entry"
