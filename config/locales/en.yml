@@ -11,10 +11,10 @@ en:
     soldout2: "Sometimes a number has been sold out.  If this is the case you will recieve notification that the number is sold out and a new random entry will be created.  The draw table has a fixed number of entries which can be sold and a number is sold out when there is more entries than the fixed number.  The sold out feature ensures that the operator can pay all winners and is a benefit to the player."
   contact:
     title: "Contact/Legal"
-    cs: "For further information about Lucky SMS please contact Telkcomcel CS at 123 on your telkcomcel mobile phone"
-    estorm: "Our local Office Manager is Mr Joaozinho Mashado. Please contact him at joaozinho@estormtech.com. (He is available at our office  at Landmard 9-12 on weekdays). Or contact estorm at info@estormtech.com"
-    office: "Our temporary office address is at Konnekto at 2nd Floor of Landmark Plaza.  We will be moving our office to Timor Plaza shortly."
-    address: "Temporary Office Address."
+    cs: "For further information about Lucky SMS please contact Telkcomcel CS at 123 on your telkcomcel mobile phone.  For Timor Telecom subscribers contact 78626721"
+    estorm: "Our local Office Manager is Ms Mili. Please contact him at info@estormtech.com. Or contact estorm at info@estormtech.com"
+    office: "Our office is at 2nd Floor of Landmark Plaza. Telephone: 78626721"
+    address: "We also have facilities at Pantai Kelapa, Warehouse"
   commands:
     title: "SMS Commands to 3031 75 cents/sms"
     4d: "get a random 4D entry"
